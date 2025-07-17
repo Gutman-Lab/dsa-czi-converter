@@ -33,6 +33,22 @@
 | JPEG2000 | Yes | 6.16 MB | 61.4% | 7.65s | 3 | 0.9757 | ⚠️ Near-lossless |
 | JPEG2000 | No | 6.16 MB | 61.4% | 7.54s | 3 | 0.9757 | ⚠️ Near-lossless |
 
+## Visual Comparison (1Kx1K Region)
+
+Below are direct visual comparisons of a 1024x1024 region from the test CZI file:
+
+| Image         | Description                |
+|---------------|---------------------------|
+| ![Original](test_output/original_1k.png)   | Original, uncompressed |
+| ![JPEG2000](test_output/jp2k_1k.png)       | JPEG2000, lossless     |
+| ![Difference](test_output/diff_1k.png)     | Amplified difference (×20) |
+
+- **Original:** The reference, uncompressed region.
+- **JPEG2000:** The same region after JPEG2000 ("lossless") compression.
+- **Difference:** Pixel-by-pixel absolute difference, amplified ×20 for visibility.
+
+> **Note:** The difference is NOT due to PNG conversion. PNG is a lossless format; the differences are entirely due to the JPEG2000 compression step.
+
 ## Recommendations
 
 ### For Perfect Color Fidelity
