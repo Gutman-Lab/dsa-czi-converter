@@ -1,0 +1,7 @@
+.pyenv/*
+hacky_conversion_output/*
+
+**.pyenv**
+li_conversion_output/*
+output_zarrs/*
+output_tiffs/*

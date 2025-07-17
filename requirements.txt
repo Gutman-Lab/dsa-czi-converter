@@ -1,0 +1,4 @@
+numpy>=1.20.0
+aicspylibczi>=3.0.0
+tifffile>=2021.7.2
+pyvips>=2.2.1 
